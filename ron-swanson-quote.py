@@ -1,11 +1,9 @@
 #!/usr/bin/python
 import requests
-import json
 from flask import Flask, request
 app = Flask(__name__)
 
 TOKEN = 'VGgoWiNMjlLy9J3JtOZxsn1r'
-
 
 @app.route('/swansonme', methods=['POST'])
 def swansonme():
