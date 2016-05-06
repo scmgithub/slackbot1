@@ -4,7 +4,7 @@ import json
 from flask import Flask, request
 app = Flask(__name__)
 
-TOKEN = 'kE7PryItAWUBwKwzaj53gZfS'
+TOKEN = 'VGgoWiNMjlLy9J3JtOZxsn1r'
 
 
 @app.route('/swansonme', methods=['POST'])
