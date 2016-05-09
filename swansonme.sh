@@ -6,3 +6,4 @@ echo *${quote:1:${#quote}-2}* -R. Swanson
 
 
 # bold the quote, add -R. Swanson
+
